@@ -1,9 +1,7 @@
 import telebot
 from voice import get_mp3_file, get_file_name
 from parser import get_article_text, get_article_language, get_link
-#
-#
-# bot = telebot.TeleBot('6075230628:AAFG9aogShjjqkjhHVGolWC5gAWac_mIgOc')
+
 
 @bot.message_handler(commands=['start'])
 def forward_message(message):
